@@ -1,0 +1,123 @@
+
+body {
+  color: black;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+
+h1 {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  font-size: 2em;
+}
+
+
+h2 {
+  font-weight: bold;
+  color: blue;
+  font-size: 1.5em;
+}
+
+
+nav {
+  text-align: center;
+  width: 200px;
+  background-color: #eee;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+
+a:link, a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+
+ol a:hover {
+  font-weight: bold;
+}
+
+
+nav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+hr {
+  width: 600px;
+  border: none;
+  border-top: 1px solid black;
+}
+
+
+em {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+
+strong {
+  font-weight: normal;
+  color: red;
+}
+
+
+table strong {
+  font-weight: bold;
+  color: black;
+}
+
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+table tr:first-child th {
+  background-color: red;
+}
+
+
+table tr:nth-child(2) th {
+  background-color: orange;
+}
+
+
+.reseau {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+
+header, footer {
+  border: 1px solid black;
+}
+
+main {
+  background-color: #aaa;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 5px 0;
+}
+
+
